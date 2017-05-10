@@ -211,9 +211,9 @@ Style/EachWithObject:
   Description: 'Prefer `each_with_object` over `inject` or `reduce`.'
   Enabled: true
 
-Style/ElseAlignment:
-  Description: 'Align elses and elsifs correctly.'
-  Enabled: true
+# Style/ElseAlignment:
+#   Description: 'Align elses and elsifs correctly.'
+#   Enabled: true
 
 Style/EmptyElse:
   Description: 'Avoid empty else-clauses.'
@@ -729,10 +729,10 @@ Style/Proc:
   StyleGuide: '#proc'
   Enabled: true
 
-Style/RaiseArgs:
-  Description: 'Checks the arguments passed to raise/fail.'
-  StyleGuide: '#exception-class-messages'
-  Enabled: true
+# Style/RaiseArgs:
+#   Description: 'Checks the arguments passed to raise/fail.'
+#   StyleGuide: '#exception-class-messages'
+#   Enabled: true
 
 Style/RedundantBegin:
   Description: "Don't use begin blocks when they are not needed."
