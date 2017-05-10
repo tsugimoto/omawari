@@ -196,10 +196,10 @@ Style/DefWithParentheses:
 #   StyleGuide: '#consistent-multi-line-chains'
 #   Enabled: true
 
-Style/DoubleNegation:
-  Description: 'Checks for uses of double negation (!!).'
-  StyleGuide: '#no-bang-bang'
-  Enabled: true
+# Style/DoubleNegation:
+#   Description: 'Checks for uses of double negation (!!).'
+#   StyleGuide: '#no-bang-bang'
+#   Enabled: true
 
 Style/EachForSimpleLoop:
   Description: >-
@@ -377,10 +377,10 @@ Style/GlobalVars:
   Reference: 'http://www.zenspider.com/Languages/Ruby/QuickRef.html'
   Enabled: true
 
-Style/GuardClause:
-  Description: 'Check for conditionals that can be replaced with guard clauses'
-  StyleGuide: '#no-nested-conditionals'
-  Enabled: true
+# Style/GuardClause:
+#   Description: 'Check for conditionals that can be replaced with guard clauses'
+#   StyleGuide: '#no-nested-conditionals'
+#   Enabled: true
 
 Style/HashSyntax:
   Description: >-
