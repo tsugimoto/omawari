@@ -13,30 +13,30 @@ Style/AccessorMethodName:
 #   StyleGuide: '#alias-method'
 #   Enabled: true
 
-Style/AlignArray:
-  Description: >-
-                 Align the elements of an array literal if they span more than
-                 one line.
-  StyleGuide: '#align-multiline-arrays'
-  Enabled: true
+# Style/AlignArray:
+#   Description: >-
+#                  Align the elements of an array literal if they span more than
+#                  one line.
+#   StyleGuide: '#align-multiline-arrays'
+#   Enabled: true
 
-Style/AlignHash:
-  Description: >-
-                 Align the elements of a hash literal if they span more than
-                 one line.
-  Enabled: true
+# Style/AlignHash:
+#   Description: >-
+#                  Align the elements of a hash literal if they span more than
+#                  one line.
+#   Enabled: true
 
-Style/AlignParameters:
-  Description: >-
-                 Align the parameters of a method call if they span more
-                 than one line.
-  StyleGuide: '#no-double-indent'
-  Enabled: true
+# Style/AlignParameters:
+#   Description: >-
+#                  Align the parameters of a method call if they span more
+#                  than one line.
+#   StyleGuide: '#no-double-indent'
+#   Enabled: true
 
-Style/AndOr:
-  Description: 'Use &&/|| instead of and/or.'
-  StyleGuide: '#no-and-or-or'
-  Enabled: true
+# Style/AndOr:
+#   Description: 'Use &&/|| instead of and/or.'
+#   StyleGuide: '#no-and-or-or'
+#   Enabled: true
 
 Style/ArrayJoin:
   Description: 'Use Array#join instead of Array#*.'
@@ -89,9 +89,9 @@ Style/BlockDelimiters:
   StyleGuide: '#single-line-blocks'
   Enabled: true
 
-Style/BracesAroundHashParameters:
-  Description: 'Enforce braces style around hash parameters.'
-  Enabled: true
+# Style/BracesAroundHashParameters:
+#   Description: 'Enforce braces style around hash parameters.'
+#   Enabled: true
 
 Style/CaseEquality:
   Description: 'Avoid explicit use of the case equality operator(===).'
@@ -501,10 +501,10 @@ Style/MethodName:
   StyleGuide: '#snake-case-symbols-methods-vars'
   Enabled: true
 
-Style/MethodMissing:
-  Description: 'Avoid using `method_missing`.'
-  StyleGuide: '#no-method-missing'
-  Enabled: true
+# Style/MethodMissing:
+#   Description: 'Avoid using `method_missing`.'
+#   StyleGuide: '#no-method-missing'
+#   Enabled: true
 
 Style/MixinGrouping:
   Description: 'Checks for grouping of mixins in `class` and `module` bodies.'
