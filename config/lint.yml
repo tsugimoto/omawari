@@ -203,7 +203,7 @@ Lint/RequireParentheses:
 Lint/RescueException:
   Description: 'Avoid rescuing the Exception class.'
   StyleGuide: '#no-blind-rescues'
-  Enabled: true
+  Enabled: false
 
 Lint/SafeNavigationChain:
   Description: 'Do not chain ordinary method call after safe navigation operator.'
