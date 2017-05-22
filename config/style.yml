@@ -13,30 +13,30 @@ Style/AccessorMethodName:
 #   StyleGuide: '#alias-method'
 #   Enabled: true
 
-Style/AlignArray:
-  Description: >-
-                 Align the elements of an array literal if they span more than
-                 one line.
-  StyleGuide: '#align-multiline-arrays'
-  Enabled: true
+# Style/AlignArray:
+#   Description: >-
+#                  Align the elements of an array literal if they span more than
+#                  one line.
+#   StyleGuide: '#align-multiline-arrays'
+#   Enabled: true
 
-Style/AlignHash:
-  Description: >-
-                 Align the elements of a hash literal if they span more than
-                 one line.
-  Enabled: true
+# Style/AlignHash:
+#   Description: >-
+#                  Align the elements of a hash literal if they span more than
+#                  one line.
+#   Enabled: true
 
-Style/AlignParameters:
-  Description: >-
-                 Align the parameters of a method call if they span more
-                 than one line.
-  StyleGuide: '#no-double-indent'
-  Enabled: true
+# Style/AlignParameters:
+#   Description: >-
+#                  Align the parameters of a method call if they span more
+#                  than one line.
+#   StyleGuide: '#no-double-indent'
+#   Enabled: true
 
-Style/AndOr:
-  Description: 'Use &&/|| instead of and/or.'
-  StyleGuide: '#no-and-or-or'
-  Enabled: true
+# Style/AndOr:
+#   Description: 'Use &&/|| instead of and/or.'
+#   StyleGuide: '#no-and-or-or'
+#   Enabled: true
 
 Style/ArrayJoin:
   Description: 'Use Array#join instead of Array#*.'
@@ -89,9 +89,9 @@ Style/BlockDelimiters:
   StyleGuide: '#single-line-blocks'
   Enabled: true
 
-Style/BracesAroundHashParameters:
-  Description: 'Enforce braces style around hash parameters.'
-  Enabled: true
+# Style/BracesAroundHashParameters:
+#   Description: 'Enforce braces style around hash parameters.'
+#   Enabled: true
 
 Style/CaseEquality:
   Description: 'Avoid explicit use of the case equality operator(===).'
@@ -196,10 +196,10 @@ Style/DefWithParentheses:
 #   StyleGuide: '#consistent-multi-line-chains'
 #   Enabled: true
 
-Style/DoubleNegation:
-  Description: 'Checks for uses of double negation (!!).'
-  StyleGuide: '#no-bang-bang'
-  Enabled: true
+# Style/DoubleNegation:
+#   Description: 'Checks for uses of double negation (!!).'
+#   StyleGuide: '#no-bang-bang'
+#   Enabled: true
 
 Style/EachForSimpleLoop:
   Description: >-
@@ -211,9 +211,9 @@ Style/EachWithObject:
   Description: 'Prefer `each_with_object` over `inject` or `reduce`.'
   Enabled: true
 
-Style/ElseAlignment:
-  Description: 'Align elses and elsifs correctly.'
-  Enabled: true
+# Style/ElseAlignment:
+#   Description: 'Align elses and elsifs correctly.'
+#   Enabled: true
 
 Style/EmptyElse:
   Description: 'Avoid empty else-clauses.'
@@ -377,10 +377,10 @@ Style/GlobalVars:
   Reference: 'http://www.zenspider.com/Languages/Ruby/QuickRef.html'
   Enabled: true
 
-Style/GuardClause:
-  Description: 'Check for conditionals that can be replaced with guard clauses'
-  StyleGuide: '#no-nested-conditionals'
-  Enabled: true
+# Style/GuardClause:
+#   Description: 'Check for conditionals that can be replaced with guard clauses'
+#   StyleGuide: '#no-nested-conditionals'
+#   Enabled: true
 
 Style/HashSyntax:
   Description: >-
@@ -501,10 +501,10 @@ Style/MethodName:
   StyleGuide: '#snake-case-symbols-methods-vars'
   Enabled: true
 
-Style/MethodMissing:
-  Description: 'Avoid using `method_missing`.'
-  StyleGuide: '#no-method-missing'
-  Enabled: true
+# Style/MethodMissing:
+#   Description: 'Avoid using `method_missing`.'
+#   StyleGuide: '#no-method-missing'
+#   Enabled: true
 
 Style/MixinGrouping:
   Description: 'Checks for grouping of mixins in `class` and `module` bodies.'
@@ -729,10 +729,10 @@ Style/Proc:
   StyleGuide: '#proc'
   Enabled: true
 
-Style/RaiseArgs:
-  Description: 'Checks the arguments passed to raise/fail.'
-  StyleGuide: '#exception-class-messages'
-  Enabled: true
+# Style/RaiseArgs:
+#   Description: 'Checks the arguments passed to raise/fail.'
+#   StyleGuide: '#exception-class-messages'
+#   Enabled: true
 
 Style/RedundantBegin:
   Description: "Don't use begin blocks when they are not needed."

@@ -23,9 +23,9 @@ Lint/AssignmentInCondition:
   StyleGuide: '#safe-assignment-in-condition'
   Enabled: true
 
-Lint/BlockAlignment:
-  Description: 'Align block ends correctly.'
-  Enabled: true
+# Lint/BlockAlignment:
+#   Description: 'Align block ends correctly.'
+#   Enabled: true
 
 Lint/CircularArgumentReference:
   Description: "Default values in optional keyword arguments and optional ordinal arguments should not refer back to the name of the argument."
@@ -42,9 +42,9 @@ Lint/Debugger:
   Description: 'Check for debugger calls.'
   Enabled: true
 
-Lint/DefEndAlignment:
-  Description: 'Align ends corresponding to defs correctly.'
-  Enabled: true
+# Lint/DefEndAlignment:
+#   Description: 'Align ends corresponding to defs correctly.'
+#   Enabled: true
 
 Lint/DeprecatedClassMethods:
   Description: 'Check for deprecated class method calls.'
@@ -87,9 +87,9 @@ Lint/EmptyWhen:
   Description: 'Checks for `when` branches with empty bodies.'
   Enabled: true
 
-Lint/EndAlignment:
-  Description: 'Align ends correctly.'
-  Enabled: true
+# Lint/EndAlignment:
+#   Description: 'Align ends correctly.'
+#   Enabled: true
 
 Lint/EndInMethod:
   Description: 'END blocks should not be placed inside method definitions.'
@@ -226,9 +226,9 @@ Lint/StringConversionInInterpolation:
   StyleGuide: '#no-to-s'
   Enabled: true
 
-Lint/UnderscorePrefixedVariableName:
-  Description: 'Do not use prefix `_` for a variable that is used.'
-  Enabled: true
+# Lint/UnderscorePrefixedVariableName:
+#   Description: 'Do not use prefix `_` for a variable that is used.'
+#   Enabled: true
 
 Lint/UnifiedInteger:
   Description: 'Use Integer instead of Fixnum or Bignum'
