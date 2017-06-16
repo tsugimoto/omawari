@@ -16,6 +16,7 @@ AllCops:
   DisabledByDefault: true
   Exclude:
     - db/schema.rb
+    - db/migrate/**/*
     - node_modules/**/*
     - vendor/**/*
   TargetRubyVersion: <%= RUBY_VERSION.split(".")[0..-2].join(".") %>
